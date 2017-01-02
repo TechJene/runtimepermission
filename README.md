@@ -100,6 +100,7 @@ private RxPermissionsFragment getRxPermissionsFragment(Activity activity) {
 > 几乎所有的项目都会有自己的BaseActivity，因为直接继承Android的Activity，则代码就很难扩展。
 
 这是整体的思路：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170102173137520?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWWFveXVhbmRlbWVpbGk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 接下来说实现过程
