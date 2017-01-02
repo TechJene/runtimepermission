@@ -33,7 +33,9 @@ Android 运行时权限的学习代码。
 也就是说，Fragment既可以申请运行时权限，也可以处理。
 
 接着看RxPermissions代码：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170102090522609?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWWFveXVhbmRlbWVpbGk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 RxPermissionsFragment方法中提供了一个resultPermissions方法，调用父类Fragment的requestPermissions方法，去请求权限。
 
 ```
